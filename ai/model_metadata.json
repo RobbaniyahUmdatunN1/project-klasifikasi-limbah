@@ -1,0 +1,21 @@
+{
+  "model_name": "WasteClassifier_MobileNetV2",
+  "version": "1.0",
+  "input_size": [
+    224,
+    224,
+    3
+  ],
+  "input_dtype": "float32",
+  "input_range": [
+    0.0,
+    1.0
+  ],
+  "output": "sigmoid (0=Organic, 1=Recyclable)",
+  "classes": [
+    "Organic",
+    "Recyclable"
+  ],
+  "threshold": 0.5,
+  "preprocessing": "resize to 224x224, divide by 255"
+}
