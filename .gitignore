@@ -1,0 +1,75 @@
+# PYTHON / TENSORFLOW
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.h5
+*.pb
+tensorboard/
+wandb/
+.ipynb_checkpoints/
+*.log
+
+# ====================
+# FLUTTER / DART
+# ====================
+*.iml
+.dart_tool/
+.pub-cache/
+build/
+coverage/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+*.apk
+*.aab
+*.ipa
+*.xcarchive
+android/.gradle/
+android/app/build/
+ios/build/
+ios/Flutter/ephemeral/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# ====================
+# IDE / EDITOR
+# ====================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.cache/
+.settings/
+
+# ====================
+# OS & JUNK
+# ====================
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ====================
+# PROJECT SPECIFIC
+# ====================
+dataset/
+raw_data/
+checkpoints/
+models/*.h5
+models/*.pb
